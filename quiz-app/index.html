@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MindMint</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Landing Page-->
+    <section class="landing-page">
+      <div class="wrapper">
+        <div class="flex-content">
+          <h1 class="vacation-heading">Welcome To MindMint</h1>
+          <a href="#quiz-packages" class="btn">Start Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!--header section-->
+    <header class="quiz-header" id="quiz-header">
+      <h1 class="heading">Master Quiz</h1>
+    </header>
+
+    <nav class="main-nav">
+      <a href="#">Home</a>
+      <a href="#quiz-packages">Quiz</a>
+      <a href="#Performer">Top Performers</a>
+      <a href="#notes">Notes</a>
+    </nav>
+
+    <section class="quiz-packages-section" id="quiz-packages">
+      <h1 class="quiz-heading">Coding Quiz</h1>
+      <p class="quiz-text">
+        Challenge yourself and sharpen your coding skills with our curated
+        quizzes across various programming languages. Whether you're mastering
+        object-oriented design in Java, exploring Python’s simplicity, diving
+        into the dynamic world of JavaScript, or strengthening your .Net
+        framework knowledge, these quizzes are designed to push your limits and
+        enhance your problem-solving abilities. Ready to test your expertise?
+        Choose a language and take the first step toward becoming a better
+        developer.
+      </p>
+      <div class="package-wrapper">
+        <div class="package-card">
+          <img src=".//images/java.jpg" alt="" />
+          <p class="card-heading">Java</p>
+          <p class="card-text">
+            Dive deep into Java's powerful features and test your understanding
+            of object-oriented programming.
+          </p>
+          <p class="card-heading">500₹</p>
+          <button class="btn" onclick="startQuiz('java')">Take Quiz</button>
+        </div>
+        <div class="package-card">
+          <img src=".//images/python.jpg" alt="" />
+          <p class="card-heading">Python</p>
+          <p class="card-text">
+            Explore Python's versatility with this quiz designed to test both
+            beginners and advanced coders.
+          </p>
+          <p class="card-heading">400₹</p>
+          <button class="btn" onclick="startQuiz('python')">Take Quiz</button>
+        </div>
+        <div class="package-card">
+          <img src=".//images/js.png" alt="" />
+          <p class="card-heading">JavaScript</p>
+          <p class="card-text">
+            Test your knowledge of JavaScript’s core concepts and its role in
+            modern web development.
+          </p>
+          <p class="card-heading">300₹</p>
+          <button class="btn" onclick="startQuiz('javascript')">
+            Take Quiz
+          </button>
+        </div>
+        <div class="package-card">
+          <img src=".//images/net.png" alt="" />
+          <p class="card-heading">.Net</p>
+          <p class="card-text">
+            Evaluate your understanding of the .Net framework and its
+            application in real-world projects.
+          </p>
+          <p class="card-heading">200₹</p>
+          <button class="btn" onclick="startQuiz('net')">Take Quiz</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="Performer-quiz-section" id="Performer">
+      <h1 class="quiz-heading">Top Performer</h1>
+      <p class="quiz-text">
+        Our top performers are the brightest minds who have consistently
+        excelled in our quizzes, showcasing their expertise and dedication. They
+        represent the pinnacle of knowledge across various subjects like Java,
+        Python, and more. With impressive scores, they set the benchmark for
+        others to follow and inspire the entire community to strive for
+        excellence
+      </p>
+      <div class="image-card">
+        <img src=".//images/m1.jpeg" alt="" />
+        <img src=".//images/m2.jpg" alt="" />
+        <img src=".//images/m3.jpg" alt="" />
+        <img src=".//images/m4.jpg" alt="" />
+        <img src=".//images/m5.jpg" alt="" />
+        <img src=".//images/m6.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="notes-section" id="notes">
+      <h1 class="quiz-heading">Subject notes</h1>
+      <p class="quiz-text">
+        Understanding core concepts is key to mastering any subject. In this
+        section, you'll find notes covering essential topics such as programming
+        languages, frameworks, and tools. Whether you're exploring Java's robust
+        object-oriented features, the intricacies of compiling code, or diving
+        into frameworks like Spring and React, these resources are designed to
+        enhance your learning. Keep building, keep innovating, and stay curious
+        about the ever-evolving world of technology.
+      </p>
+      <div class="notes-div">
+        <div class="notes-wrapper">
+          <a
+            href="https://github.com/krishnasagrawal/Java-Programming-Notes/tree/main"
+            ><img src=".//images/java.jpg" alt="javaNotes"
+          /></a>
+        </div>
+        <div class="notes-wrapper">
+          <a
+            href="https://www.studocu.com/in/document/islamic-university-of-science-and-technology/theory-of-computation-formal-languages/compiler-design-hand-written-notes/44823468"
+            ><img src=".//images/compiler.png" alt="compilerDesignNotes"
+          /></a>
+        </div>
+        <div class="notes-wrapper">
+          <a href="https://harshityadav.in/posts/Spring-Boot-Notes/"
+            ><img src=".//images/spring.png" alt="springBootNotes"
+          /></a>
+        </div>
+        <div class="notes-wrapper">
+          <a
+            href="https://www.scribd.com/document/671197698/React-Handwritten-Notes"
+            ><img src=".//images/react.png" alt="reactNotes"
+          /></a>
+        </div>
+        <div class="notes-wrapper">
+          <a
+            href="https://www.scribd.com/document/686213563/Hand-Written-DevOps-Notes"
+            ><img src=".//images/dev.jpg" alt="devOpsNotes"
+          /></a>
+        </div>
+        <div class="notes-wrapper">
+          <a
+            href="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/notes/Python_Complete_Notes.pdf"
+            ><img src=".//images/python.jpg" alt="pythonNotes"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="footer-content">
+        <small>&copy; 2024 All Rights Reserved</small>
+        <small>
+          Developed & Maintained by
+          <a
+            href="https://www.linkedin.com/in/piyush-kumar-sahoo-2802681bb/"
+            target="_blank"
+            >Piyush Kumar Sahoo</a
+          >
+        </small>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
